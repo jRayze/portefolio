@@ -6,7 +6,7 @@ export const projectsData = [
     languages: ["Wordpress", "CSS"],
     infos:
       "Site Web / Blog de l'association du Club Sportif Courtry Badminton.",
-    img: "./portefolio/assets/img/cscb2.PNG",
+    img: "./assets/img/cscb2.PNG",
     link: "http://www.cscb.towebapp.fr",
   },
   {
@@ -16,7 +16,7 @@ export const projectsData = [
     languages: ["AngularJs", "Material", "HTML/CSS"],
     infos:
       "[Projet Ecole 42 | En groupe] Site de streaming avec des torrents.",
-    img: "./portefolio/assets/img/hypertube.jpg",
+    img: "./assets/img/hypertube.jpg",
     link: "http://www.google.com",
   },
   {
@@ -26,7 +26,7 @@ export const projectsData = [
     languages: ["Javascript", "jQuery", "Bootstrap", "HTML/CSS"],
     infos:
       "[Projet Ecole 42 | En groupe] Site de rencontre.",
-    img: "./portefolio/assets/img/matcha.jpg",
+    img: "./assets/img/matcha.jpg",
     link: "http://www.google.com",
   },
   {
@@ -36,7 +36,7 @@ export const projectsData = [
     languages: ["ReactJs", "HTML/CSS", "Redux"],
     infos:
       "[Projet Ecole 42 | En groupe] Jeu du gomoku avec IA.",
-    img: "./portefolio/assets/img/maintenance.jpg",
+    img: "./assets/img/maintenance.jpg",
     link: "http://www.google.com",
   },
 ];
