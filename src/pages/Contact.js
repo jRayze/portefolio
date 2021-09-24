@@ -72,7 +72,7 @@ const Contact = () => {
                         <p>ToWebApp | Jayson Merlini - 2021</p>
                     </div>
                 </div>
-                <ButtonsBottom left={'/project-4'} />
+                <ButtonsBottom left={'/portefolio/project-4'} />
             </motion.div>
         </main>
     );

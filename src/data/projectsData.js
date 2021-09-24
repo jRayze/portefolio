@@ -37,6 +37,6 @@ export const projectsData = [
     infos:
       "[Projet Ecole 42 | En groupe] Jeu du gomoku avec IA.",
     img: "../../portefolio/assets/img/maintenance.jpg",
-    link: "http://www.google.com",
+    link: "http://jrayze.github.io/gomoku",
   },
 ];

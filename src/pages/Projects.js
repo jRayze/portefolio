@@ -13,7 +13,7 @@ export const Cscb = () => {
                 <Navigation />
                 <Logo />
                 <Project projectNumber={0} />
-                <ButtonsBottom left={'/'} right={'/project-2'}/>
+                <ButtonsBottom left={'/portefolio'} right={'/portefolio/project-2'}/>
             </div>
         </main>
     );
@@ -27,7 +27,7 @@ export const Project2 = () => {
                 <Navigation />
                 <Logo />
                 <Project projectNumber={1} />
-                <ButtonsBottom left={'/project-1'} right={'/project-3'}/>
+                <ButtonsBottom left={'/portefolio/cscb'} right={'/portefolio/project-3'}/>
             </div>
         </main>
     );
@@ -41,7 +41,7 @@ export const Project3 = () => {
                 <Navigation />
                 <Logo />
                 <Project projectNumber={2} />
-                <ButtonsBottom left={'/project-2'} right={'/project-4'}/>
+                <ButtonsBottom left={'/portefolio/project-2'} right={'/portefolio/project-4'}/>
             </div>
         </main>
     );
@@ -55,7 +55,7 @@ export const Project4 = () => {
                 <Navigation />
                 <Logo />
                 <Project projectNumber={3} />
-                <ButtonsBottom left={'/project-3'} right={'/contact'}/>
+                <ButtonsBottom left={'/portefolio/project-3'} right={'/portefolio/contact'}/>
             </div>
         </main>
     );

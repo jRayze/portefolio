@@ -64,13 +64,13 @@ const App = () => {
     <div>
       <AnimatePresence>
         <Switch location={location} key={location.pathname}>
-          <Route path="/" exact component={Home} />
-          <Route path="/cscb" exact component={Cscb} />
-          <Route path="/project-2" exact component={Project2} />
-          <Route path="/project-3" exact component={Project3} />
-          <Route path="/project-4" exact component={Project4} />
-          <Route path="/contact" exact component={Contact} />
-          <Redirect to="/" />
+          <Route path="/portefolio" exact component={Home} />
+          <Route path="/portefolio/cscb" exact component={Cscb} />
+          <Route path="/portefolio/project-2" exact component={Project2} />
+          <Route path="/portefolio/project-3" exact component={Project3} />
+          <Route path="/portefolio/project-4" exact component={Project4} />
+          <Route path="/portefolio/contact" exact component={Contact} />
+          <Redirect to="/portefolio" />
         </Switch>
       </AnimatePresence>
     </div>
